@@ -8,6 +8,8 @@ import '@fontsource/roboto/700.css';
 import './styles/app.css';
 import './styles/map.css';
 import Map from './components/Map';
+import Information from './components/Information';
+
 
 function App() {
   const [value, setValue] = React.useState('1');
@@ -30,7 +32,9 @@ function App() {
           <Map />
         </TabPanel >
         <TabPanel value="2"><h1 style={{ textAlign: 'center' }}>Раздел в разработке</h1></TabPanel>
-        <TabPanel value="3"><h1 style={{ textAlign: 'center' }}>Раздел в разработке</h1></TabPanel>
+        <TabPanel value="3" style={{ padding: '0' }}>
+          <Information />
+        </TabPanel>
       </TabContext >
     </>
   );
