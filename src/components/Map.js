@@ -38,7 +38,7 @@ function Map() {
                                 <div>
                                     <b>{station.label}</b><br />
                                     Дата: {station.date} <br />
-                                    <table class="popup-table"><tr><th>Примесь</th><th>СИ</th></tr>
+                                    <table className="popup-table"><tr><th>Примесь</th><th>СИ</th></tr>
                                         {station.si.map(param =>
                                             param.val != null ? <tr style={{ backgroundColor: param.val > 2 ? 'yellow' : null }}><td> {param.name} </td><td> {param.val != -32768 ? param.val : "Нет данных"} </td></tr> : null
                                         )}
