@@ -18,7 +18,7 @@ function Information() {
           <Box bx={{ borderBottom: 1, borderColor: 'divider' }}>
             <TabList onChange={handleChange} aria-label="lab API tabs example" variant="fullWidth" indicatorColor='inherit' textColor='inherit'>
               <Tab label="Инстанции" value="4" />
-              <Tab label="ПДК" value="5" />
+              <Tab label="ПДК и СИ" value="5" />
               <Tab label="Маркировки" value="6" />
             </TabList>
           </Box>

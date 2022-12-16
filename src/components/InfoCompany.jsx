@@ -1,11 +1,12 @@
+import { color } from '@mui/system';
 import React from 'react';
 
 
 function InfoCompany() {
 
     return (
-        <table><tr><td valign='center'>
-                    <div id='Info'>
+        <table align="center"><tr><td valign='center'>
+                    <div id='Info' align="center" >
                         <p> <a href="https://rpn.gov.ru/about/intro/"> РОСПРИРОДНАДЗОР</a></p>
                         <p> <a href="https://mineco.gov74.ru/mineco/activities/oxranaokruzhayushhejsredychely/informaciyaobekologicheskojsit.htm"> Министерство экологии Челябинской области</a></p>
                         <p> <a href="https://vtorproekt.com/"> Вторпроект</a></p>

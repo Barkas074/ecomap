@@ -1,8 +1,8 @@
 .MuiButtonBase-root[aria-selected=true] {
-    color: #F15D57;
+    color: #5766f1;
 }
 .MuiTabs-indicator {
-    background-color: #F15D57;
+    background-color: #5766f1;
 }
 .MuiTabPanel-root {
     flex-grow: 1;
