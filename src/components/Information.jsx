@@ -2,11 +2,11 @@ import React from 'react';
 import { TabContext, TabList, TabPanel } from '@mui/lab';
 import { Box, Tab } from '@mui/material';
 import InfoCompany from './InfoCompany';
-import PDK from './PDK';
+import Recommendations from './Recommendations';
 import Markings from './Markings';
 
 function Information() {
-    const [value, setValue] = React.useState('1');
+    const [value, setValue] = React.useState('5');
 
     const handleChange = (event, newValue) => {
       setValue(newValue);
@@ -14,11 +14,12 @@ function Information() {
 
     return (
         <>
+        
         <TabContext value={value}>
           <Box bx={{ borderBottom: 1, borderColor: 'divider' }}>
             <TabList onChange={handleChange} aria-label="lab API tabs example" variant="fullWidth" indicatorColor='inherit' textColor='inherit'>
               <Tab label="Инстанции" value="4" />
-              <Tab label="ПДК и СИ" value="5" />
+              <Tab label="Рекомендации" value="5" />
               <Tab label="Маркировки" value="6" />
             </TabList>
           </Box>
@@ -26,7 +27,7 @@ function Information() {
           <InfoCompany />
           </TabPanel>
           <TabPanel value="5" style={{ padding: '0' }}>
-          <PDK />
+          <Recommendations />
           </TabPanel>
           <TabPanel value="6" style={{ padding: '0' }}>
           <Markings />

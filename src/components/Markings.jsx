@@ -1,4 +1,5 @@
 import React from 'react';
+import marking from '../styles/markings.css'
 
 function Markings() {
 

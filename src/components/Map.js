@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, CircleMarker, Popup } from 'react-leaflet';
 import LegendAndHint from '../components/LegendAndHint';
 import 'leaflet/dist/leaflet.css';
 import DataEcomap from '../data.json';
+import Recommendations from './Recommendations';
 
 function Map() {
 
@@ -43,6 +44,7 @@ function Map() {
                                             param.val != null ? <tr style={{ backgroundColor: param.val > 2 ? 'yellow' : null }}><td> {param.name} </td><td> {param.val != -32768 ? param.val : "Нет данных"} </td></tr> : null
                                         )}
                                     </table>
+                                    <Recommendations />
                                 </div>
                             </Popup>
                         </CircleMarker>
