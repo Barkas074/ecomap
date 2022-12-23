@@ -67,7 +67,7 @@ summary:before {
     width: 1em;
     height: 1em;
     content: "";
-    position: absolute;
+    position:absolute;
     transition: transform .5s;
 }
 
@@ -95,7 +95,7 @@ details[open] summary~* {
 
 
 details {
-    display: block;
+    display:flex;
     margin-bottom: .5rem;
 }
 

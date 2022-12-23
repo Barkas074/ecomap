@@ -44,7 +44,7 @@ function Map() {
                                             param.val != null ? <tr style={{ backgroundColor: param.val > 2 ? 'yellow' : null }}><td> {param.name} </td><td> {param.val != -32768 ? param.val : "Нет данных"} </td></tr> : null
                                         )}
                                     </table>
-                                    <Recommendations />
+                                    <p> Тут будет ссылка на рекомендации</p>
                                 </div>
                             </Popup>
                         </CircleMarker>
