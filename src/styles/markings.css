@@ -1,0 +1,33 @@
+.table_of_mk {
+    word-break: normal;
+    font-size: smaller;
+    border-spacing: 10px;
+}
+
+#Paper {
+    background-color: #e2ffe5;
+}
+
+#Plastic {
+    background-color: #f4ffd9;
+}
+
+#Glass {
+    background-color: #dee6ff;
+}
+
+#Metall {
+    background-color: #dbdbdb;
+}
+
+#Other {
+    background-color: #ffdede;
+}
+
+.table_of_mk * {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-collapse: collapse;
+
+}

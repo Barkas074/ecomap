@@ -17,10 +17,10 @@ function Recommendations() {
             <details>
                 <summary>ПДК веществ</summary>
                 <p>
-                    <div id='rectangle3'>
-                        <p> У каждого вещества есть свой ПДК (м.р - максимально-разовое, с.с - среднесуточное)</p>
+                    <div className='border'>
+                        <p align='center'> У каждого вещества есть свой ПДК (м.р - максимально-разовое, с.с - среднесуточное)</p>
 
-                        <table align='center' id='lol' border={1}>
+                        <table align='center' className='table_of_rec' border={1}>
                             <tbody border='1'>
 
                                 <tr>
@@ -143,10 +143,10 @@ function Recommendations() {
             <hr />
 
             <details >
-                <summary>Градации СИ</summary>
-                <div id='rectangle3'>
+                <summary>Рекомендации по здоровью</summary>
+                <div className='border'>
                     <p>
-                        <table align="center" id='lol' border={1}>
+                        <table align="center"  className='table_of_rec' border={1}>
                             <tr>
                                 <td>Градации</td>
                                 <td>Загрязнение атмосферного воздуха</td>

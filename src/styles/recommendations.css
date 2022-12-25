@@ -1,20 +1,27 @@
 
-#rectangle3 {
-    padding-left: 15px;
-    padding-right: 15px;
+.border {
+    padding-left: 10px;
+    padding-right: 10px;
     width: auto;
     height: auto;
     background: #cbe7ff;
     border-radius: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 
-#lol {
+.table_of_rec {
     border: 10px;
     border-collapse: collapse;
     border: #85c2ff;
+    
+    
+}
+
+.table_of_rec * {
+    border-left: none;
+    border-right: none;
 }
 
 #first {
@@ -33,10 +40,7 @@
     background-color: rgb(255, 141, 141);
 }
 
-table, th, td {
-    border-left: none;
-    border-right: none;
-  }
+
 
 
 summary::-webkit-details-marker {
