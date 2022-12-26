@@ -6,8 +6,8 @@
     height: auto;
     background: #cbe7ff;
     border-radius: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -15,14 +15,19 @@
     border: 10px;
     border-collapse: collapse;
     border: #85c2ff;
+    border-spacing: 10px;
     
-    
+}
+
+.fat {
+    font-weight: bold;
 }
 
 .table_of_rec * {
     border-left: none;
     border-right: none;
 }
+
 
 #first {
     background-color: rgb(167, 255, 171);

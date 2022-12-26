@@ -24,7 +24,7 @@ function App() {
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <TabList onChange={handleChange} aria-label="lab API tabs example" variant="fullWidth" indicatorColor='inherit' textColor='inherit'>
             <Tab label="Карта" value="1" />
-            <Tab label="Список адресов" value="2" />
+            <Tab label="Рядом" value="2" />
             <Tab label="Полезное" value="3" />
           </TabList>
         </Box>
