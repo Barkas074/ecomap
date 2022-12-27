@@ -147,7 +147,7 @@ function Recommendations() {
                 <div className='border'>
                     <p>
                         <table align="center" className='table_of_rec' border={1}>
-                            <tr>
+                            <tr className='delete_divider'>
                                 <td>Градации</td>
                                 <td>Загрязнение атмосферного воздуха</td>
                                 <td>Рекомендация</td>

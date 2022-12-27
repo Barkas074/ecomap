@@ -17,6 +17,7 @@
     border-collapse: collapse;
     border: #85c2ff;
     border-spacing: 10px;
+
     
 }
 
@@ -32,23 +33,24 @@
     border-left: none;
     border-right: none;
     border-top: none;
+    vertical-align: top;
 }
 
 
 #first {
-    background-color: rgb(167, 255, 171);
+    background-color: rgb(196, 255, 199);
 }
 
 #second {
-    background-color: rgb(238, 255, 164);
+    background-color: rgb(244, 255, 197);
 }
 
 #third {
-    background-color: rgb(255, 208, 155);
+    background-color: rgb(255, 220, 181);
 }
 
 #fourth {
-    background-color: rgb(255, 141, 141);
+    background-color: rgb(255, 183, 183);
 }
 
 
