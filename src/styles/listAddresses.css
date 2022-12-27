@@ -1,0 +1,42 @@
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 1em;
+}
+
+.list a, 
+.list a:active, 
+.list a:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+    color: inherit;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5em;
+    overflow: hidden;
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+}
+
+.distance {
+    background-color: #5766f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5em;
+    width: 4em;
+    border-radius: .2em;
+    min-width: 4em;
+    margin-left: 0.6em;
+}

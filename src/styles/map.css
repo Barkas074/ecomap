@@ -9,7 +9,7 @@
   position: absolute;
   bottom: 5px;
   left: 5px;
-  z-index: 1000;
+  z-index: 2000;
 }
 
 #siScaleDiv {
@@ -58,4 +58,8 @@
 .popup-table td, .popup-table th {
   border: 1px solid rgb(153, 180, 233);
   padding: 0 3px;
+}
+
+.leaflet-touch .leaflet-control-layers-toggle {
+  background-image: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 6h10l-5.01 6.3L7 6zm-2.75-.39C6.27 8.2 10 13 10 13v6c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-6s3.72-4.8 5.74-7.39c.51-.66.04-1.61-.79-1.61H5.04c-.83 0-1.3.95-.79 1.61z' fill='%2300000042'/%3E%3C/svg%3E" );
 }
